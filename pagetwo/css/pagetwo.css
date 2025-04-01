@@ -1,3 +1,160 @@
 body {
     background-color: navy;
+    text-decoration: none;
+    font-family: "Literata", serif;
+}
+
+h2{
+
+    color: white;
+    font-size: 109px;
+    text-align: center;
+}
+
+.Children {
+    margin-right: 69x;
+    margin-top: 350px;
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+.letterone {
+color: green;
+margin-right: 398px;
+animation: wave 1s ease-in-out infinite;
+animation-delay: 1s;
+animation-direction: normal;
+animation-duration: 10s;
+animation-fill-mode: normal;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+
+}
+    
+.lettertwo {
+    color: lightcyan;
+    margin-top: -248px;
+    margin-left: -169px;
+    animation: wave 2s ease-in-out infinite;
+    animation-delay: 2s;
+animation-direction: normal;
+animation-duration: 14s;
+animation-fill-mode: normal;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+    
+    }
+    
+.letterthree {
+  color: crimson;
+  margin-top: -189px;
+  margin-left: -20px;
+  animation: wave 3s ease-in-out infinite;
+  animation-delay: 1s;
+animation-direction: normal;
+animation-duration: 12s;
+animation-fill-mode: normal;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+        
+      }
+
+.letterfour {
+     color: black;
+     margin-top: -269px;
+  margin-left: 56px;
+     animation: wave 3s ease-in-out infinite;
+     animation-delay: 1s;
+animation-direction: normal;
+animation-duration: 16s;
+animation-fill-mode: normal;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+            
+            }
+
+.letterfive {
+  color: blueviolet;
+  margin-top: -278px;
+  margin-left: 167px;
+  animation: wave 3s ease-in-out infinite;
+  animation-delay: 1s;
+animation-direction: normal;
+animation-duration: 18s;
+animation-fill-mode: normal;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+                
+    }
+
+    .lettersix {
+        color: lightseagreen;
+        margin-top: -235px;
+  margin-left: 304px;
+        animation: wave 4s ease-in-out infinite;
+        animation-delay: 4s;
+animation-direction: normal;
+animation-duration: 20s;
+animation-fill-mode: normal;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+        
+        }
+
+    .letterseven {
+            color: lightcoral;
+            margin-top: -278px;
+           margin-left: 456px;
+            animation: wave 6s ease-in-out infinite;
+            animation-delay: 6s;
+animation-direction: normal;
+animation-duration: 22s;
+animation-fill-mode: normal;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+            
+      }
+
+    .lettereight {
+             margin-top: -249px;
+            margin-left: 588px;
+                color: whitesmoke;
+             animation: wave 8s ease-in-out infinite;
+              animation-delay: 8s;
+             animation-direction: normal;
+             animation-duration: 24s;
+             animation-fill-mode: normal;
+              animation-iteration-count: infinite;
+              animation-play-state: running;
+              animation-timing-function: ease-in-out
+                
+                }
+
+
+
+@keyframes wave {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+
+        transform: translateY(-40px);
+    }
+
+    
+    100% {
+        transform: translateY(0px);
+    }
 }

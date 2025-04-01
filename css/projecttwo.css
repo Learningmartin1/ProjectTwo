@@ -1,20 +1,46 @@
 body {
     background-color: navy;
+    text-decoration: none;
+    font-family: "Literata", serif;
 }
 
 h2 {
    
     color: white;
-    font-size: 36px;
-    font-weight: 200px;
+    font-size: 109px;
     text-align: center;
+
 
 }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 3; }
+  }
+
+.word1{
+animation: fadein 3s;
+    animation-name: fadein;
+animation-delay: 1s;
+animation-direction: normal;
+animation-duration: 13s;
+animation-fill-mode: normal;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+}
+
+
+
 .World {
 
-    margin-right: 456px;
-    margin-bottom: 566px;
-    
+    margin-right: 69x;
+    margin-top: 350px;
+   
+}
 
+a {
+    color: red;
+    text-decoration: none;
+    
 }
