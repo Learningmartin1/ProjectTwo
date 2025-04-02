@@ -24,15 +24,35 @@ a {
 
     div {
         color: indigo;
+
+        text-transform: uppercase;
+        background: 50% 100% / 50% 50% no-repeat
+              radial-gradient(ellipse at bottom, #35df26, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+        animation: betterday 3000ms ease-in-out forwards 200ms,
+             glow 2500ms linear infinite 2000ms;
     }
 
-    .betterday {
-        text-transform: uppercase;
-    }
+    
 
     @keyframes betterday {
-
-    }
+        80%{
+          letter-spacing: 7px;
+        }
+        100% {
+          background-size: 200% 200%;
+        }
+      }
+      @keyframes glow {
+        40% {
+          text-shadow: 0 0 8px #127722;
+        }
+      }
+     
+/*https://www.sliderrevolution.com/resources/css-text-animation/*/
+    
 
     .wordsfour {
         margin-left: 456px;
