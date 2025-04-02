@@ -17,144 +17,37 @@ h2{
 }
 
 
+
 a {
     text-decoration: none;
     
 }
 
-.letterone {
-color: green;
-margin-right: 398px;
-animation: wave 1s ease-in-out infinite;
-animation-delay: 1s;
-animation-direction: normal;
-animation-duration: 10s;
-animation-fill-mode: normal;
-animation-iteration-count: infinite;
-animation-play-state: running;
-animation-timing-function: ease-in-out;
-
+.word2 {
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 
+        1px 1px 0px #3f39e6, 
+        2px 2px 0px #00f752, 
+        3px 3px 0px #fcbf49, 
+        4px 4px 0px #44dce1, 
+        5px 5px 0px #cb2bab;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    animation: word2 5s infinite linear;
 }
-    
-.lettertwo {
-    color: lightcyan;
-    margin-top: -248px;
-    margin-left: -169px;
-    animation: wave 2s ease-in-out infinite;
-    animation-delay: 2s;
-animation-direction: normal;
-animation-duration: 14s;
-animation-fill-mode: normal;
-animation-iteration-count: infinite;
-animation-play-state: running;
-animation-timing-function: ease-in-out;
-    
-    }
-    
-.letterthree {
-  color: crimson;
-  margin-top: -189px;
-  margin-left: -20px;
-  animation: wave 3s ease-in-out infinite;
-  animation-delay: 1s;
-animation-direction: normal;
-animation-duration: 12s;
-animation-fill-mode: normal;
-animation-iteration-count: infinite;
-animation-play-state: running;
-animation-timing-function: ease-in-out;
-        
-      }
 
-.letterfour {
-     color: black;
-     margin-top: -269px;
-  margin-left: 56px;
-     animation: wave 3s ease-in-out infinite;
-     animation-delay: 1s;
-animation-direction: normal;
-animation-duration: 16s;
-animation-fill-mode: normal;
-animation-iteration-count: infinite;
-animation-play-state: running;
-animation-timing-function: ease-in-out;
-            
-            }
-
-.letterfive {
-  color: blueviolet;
-  margin-top: -278px;
-  margin-left: 167px;
-  animation: wave 3s ease-in-out infinite;
-  animation-delay: 1s;
-animation-direction: normal;
-animation-duration: 18s;
-animation-fill-mode: normal;
-animation-iteration-count: infinite;
-animation-play-state: running;
-animation-timing-function: ease-in-out;
-                
-    }
-
-    .lettersix {
-        color: lightseagreen;
-        margin-top: -235px;
-  margin-left: 304px;
-        animation: wave 4s ease-in-out infinite;
-        animation-delay: 4s;
-animation-direction: normal;
-animation-duration: 20s;
-animation-fill-mode: normal;
-animation-iteration-count: infinite;
-animation-play-state: running;
-animation-timing-function: ease-in-out;
-        
-        }
-
-    .letterseven {
-            color: lightcoral;
-            margin-top: -278px;
-           margin-left: 456px;
-            animation: wave 6s ease-in-out infinite;
-            animation-delay: 6s;
-animation-direction: normal;
-animation-duration: 22s;
-animation-fill-mode: normal;
-animation-iteration-count: infinite;
-animation-play-state: running;
-animation-timing-function: ease-in-out;
-            
-      }
-
-    .lettereight {
-             margin-top: -249px;
-            margin-left: 588px;
-                color: whitesmoke;
-             animation: wave 8s ease-in-out infinite;
-              animation-delay: 8s;
-             animation-direction: normal;
-             animation-duration: 24s;
-             animation-fill-mode: normal;
-              animation-iteration-count: infinite;
-              animation-play-state: running;
-              animation-timing-function: ease-in-out
-                
-                }
-
-
-
-@keyframes wave {
+@keyframes word2 {
+   
     0% {
-        transform: translateY(0px);
+        transform: rotateY(0deg);
     }
-
-    50% {
-
-        transform: translateY(-40px);
-    }
-
-    
     100% {
-        transform: translateY(0px);
+        transform: rotateY(360deg);
     }
+      
 }
+
+/* https://prismic.io/blog/css-text-animations#9-wavy-text */
