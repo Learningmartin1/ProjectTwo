@@ -25,3 +25,36 @@ a {
     div {
         color: indigo;
     }
+
+    .betterday {
+        text-transform: uppercase;
+    }
+
+    @keyframes betterday {
+
+    }
+
+    .wordsfour {
+        margin-left: 456px;
+        margin-top: -499px;
+        transform: translateX(400%);
+    animation-name: wordsfour;
+    display: inline-block;
+    position: relative;
+    transform: translateX(0);
+    animation-duration: 2.6s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+    }
+
+    @keyframes wordsfour {
+        0% {
+            transform: translateX(400%);
+        }
+        100% {
+            transform: translateX(0);
+    }
+}
+
+/* https://prismic.io/blog/css-text-animations#23-gradient-typing-effect */
