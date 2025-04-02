@@ -1,5 +1,6 @@
 body {
     background-color: navy;
+    font-family: "Literata", serif;
 }
 
 
@@ -23,6 +24,7 @@ a {
 
     div {
         color: orange;
+        
     }
 
     .brighterday {
@@ -46,11 +48,12 @@ animation-timing-function: ease-in-out;
 }
 
 .giving {
-    animation: giving 3s ease-in-out infinite;
+    text-transform: uppercase;
+    animation: giving 4s ease-in-out infinite;
     animation-name: giving;
 animation-delay: 1s;
 animation-direction: normal;
-animation-duration: 8s;
+animation-duration: 9s;
 animation-fill-mode: normal;
 animation-iteration-count: infinite;
 animation-play-state: running;
@@ -75,3 +78,5 @@ animation-timing-function: ease-in-out;
         transform: translateY(0) scaleY(0.9);
       }
     }
+
+    /* https://codepen.io/hexagoncircle/pen/MWgbqON */
