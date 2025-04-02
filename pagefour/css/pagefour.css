@@ -2,3 +2,26 @@ body {
     background-color: navy;
     font-family: "Literata", serif;
 }
+
+h2{
+
+    color: white;
+    font-size: 109px;
+    text-align: center;
+
+}
+
+h3 {
+    color: olive;
+    font-size: 103px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+
+    }
+
+    div {
+        color: indigo;
+    }

@@ -12,7 +12,7 @@ h2{
 }
 
 h3 {
-    color: red;
+    color: white;
     font-size: 103px;
     text-align: center;
 }
@@ -29,16 +29,21 @@ a {
 
     .brighterday {
 
-        animation-name: brighterday;
-        animation-delay: 1s;
-animation-direction: normal;
-animation-duration: 13s;
-animation-fill-mode: normal;
-animation-iteration-count: infinite;
-animation-play-state: running;
-animation-timing-function: ease-in-out;
+      text-shadow: 0 0 7px #b6eb30cb, 0 0 12px #b6eb30cb, 0 0 22px #b6eb30cb, 0 0 47px #b6eb30cb, 0 0 87px #b6eb30cb;
+      animation: brigherday 2s infinite alternate;
+  }
+    
+    
+    @keyframes brigherday {
+      0% {
+        text-shadow: 0 0 7px #b6eb30cb, 0 0 12px #b6eb30cb, 0 0 22px #b6eb30cb, 0 0 47px #b6eb30cb, 0 0 87px #b6eb30cb;
+    }
+    100% {
+        text-shadow: 0 0 13px #6200ffbb, 0 0 24px #6200ffbb, 0 0 44px #6200ffbb, 0 0 60px #6200ffbb, 0 0 167px #6200ffbb;
+    }
     }
 
+    /*https://prismic.io/blog/css-text-animations#23-gradient-typing-effect*/
     
 
 .wordthree {
