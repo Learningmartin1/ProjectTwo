@@ -13,4 +13,52 @@ h2{
 
 h3 {
     color: lightskyblue;
+    font-size: 110px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fall {
+    opacity: 0; 
+    animation: fall 0.6s linear forwards;
+
+}
+
+@keyframes fall {
+
+    0% {
+
+        transform: translateY(-300px) scaleY(1.1);
+    }
+    
+    5% {
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: translateY(0px) scaleY(0.8);
+    }
+
+    65% {
+        transform: translateY(-19px) scaleY(0.9);
+
+         }
+
+    75% {
+
+        transform: translateY(-20px) scaleY(1.2);
+
+    }
+
+    100% {
+        transform: translateY(-27px) scaleY(1.9);
+        opacity: 2;
+
+    }
+
+
 }
