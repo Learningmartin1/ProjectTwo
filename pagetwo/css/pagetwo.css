@@ -24,16 +24,16 @@ a {
 }
 
 .word2 {
-    color: green;
+    color: chartreuse;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
     text-shadow: 
-        1px 1px 0px #3f39e6, 
-        2px 2px 0px #00f752, 
+        1px 1px 0px #1b16a1, 
+        2px 2px 0px #17a747, 
         3px 3px 0px #fcbf49, 
-        4px 4px 0px #44dce1, 
-        5px 5px 0px #cb2bab;
+        4px 4px 0px #20eef6, 
+        5px 5px 0px #921078;
     transform: rotateY(0deg);
     transform-style: preserve-3d;
     animation: word2 5s infinite linear;

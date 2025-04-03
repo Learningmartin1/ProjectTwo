@@ -52,8 +52,12 @@ a {
     margin-top: 350px;
 }
 
+span {
+  color: chartreuse;
+}
+
 .giving {
-    text-transform: uppercase;
+      text-transform: uppercase;
     animation: giving 4s ease-in-out infinite;
     animation-name: giving;
 animation-delay: 1s;
