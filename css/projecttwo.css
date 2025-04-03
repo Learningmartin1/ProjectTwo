@@ -15,15 +15,15 @@ h2 {
 
 @keyframes fadein {
     from { opacity: 0; }
-    to { opacity: 3; }
+    to { opacity: 26; }
   }
 
 .word1{
-animation: fadein 3s;
+animation: fadein 9s;
     animation-name: fadein;
-animation-delay: 1s;
+animation-delay: 3s;
 animation-direction: normal;
-animation-duration: 13s;
+animation-duration: 20s;
 animation-fill-mode: normal;
 animation-iteration-count: infinite;
 animation-play-state: running;
